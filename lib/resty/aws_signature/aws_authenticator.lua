@@ -568,7 +568,7 @@ function _M.authenticate_post(self, ctx)
 end
 
 
-function _M.new(self, get_secret_key, get_bucket_from_host, shared_dict)
+function _M.new(get_secret_key, get_bucket_from_host, shared_dict)
     return setmetatable({
         get_secret_key = get_secret_key,
         get_bucket_from_host = get_bucket_from_host,

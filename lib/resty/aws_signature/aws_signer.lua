@@ -21,7 +21,7 @@ local valid_auth_args = {
 }
 
 
-function _M.new(self, access_key, secret_key, opts)
+function _M.new(access_key, secret_key, opts)
     opts = opts or {}
 
     if type(access_key) ~= 'string' then

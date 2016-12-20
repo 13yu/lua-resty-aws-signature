@@ -27,7 +27,7 @@ __DATA__
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -71,7 +71,7 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -115,7 +115,7 @@ nil
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -155,7 +155,7 @@ AWS4-HMAC-SHA256 Credential=ziw5dp1alvty9n47qksu/[0-9]{8}/us-east-1/s3/aws4_requ
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -200,7 +200,7 @@ AWS4-HMAC-SHA256 Credential=ziw5dp1alvty9n47qksu/[0-9]{8}/us-east-1/s3/aws4_requ
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -243,7 +243,7 @@ fdcf4254fc02e5e41e545599f0be4f9f65e8be431ebc1fd301a96ea88dd0d5d6
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -286,7 +286,7 @@ fdcf4254fc02e5e41e545599f0be4f9f65e8be431ebc1fd301a96ea88dd0d5d6
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
@@ -330,7 +330,7 @@ AWS4-HMAC-SHA256 Credential=ziw5dp1alvty9n47qksu/[0-9]{8}/us-east-1/s3/aws4_requ
 
             local access_key = "ziw5dp1alvty9n47qksu"
             local secret_key = "V+ZTZ5u5wNvXb+KP5g0dMNzhMeWe372/yRKx4hZV"
-            local signer, err, msg = aws_signer:new(access_key, secret_key)
+            local signer, err, msg = aws_signer.new(access_key, secret_key)
             if err ~= nil then
                 ngx.log(ngx.ERR, "failed to new a aws_signer" .. err .. " " .. msg)
             end
