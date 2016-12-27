@@ -3,6 +3,7 @@ Name
 
 lua-resty-aws-signature - Lua library for signing or authenticating a request use aws signature version 4
 
+
 Table of Contents
 =================
 
